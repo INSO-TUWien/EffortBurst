@@ -1,0 +1,83 @@
+.chart-container{
+    display: flex;
+    background: rgba(229, 229, 229, 0.2);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.chart-container-left{
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 280px;
+    background-color: #efefef;
+    height: 100%;
+}
+
+.chart-container-filter {
+    width:280px;
+}
+
+.chart-container-middle {
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    flex: 1;
+}
+
+.chart-container-charts {
+    width: 100%;
+    display: flex;
+}
+
+.chart-container-chart  {
+    position: relative;
+    min-height: 100%;
+    flex: 1 1 auto;
+    margin: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.chart-container-visualization-title{
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.chart-container-visualization-subtitle {
+    margin: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.chart-container-legend-container {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    flex: 0 1 100%;
+}
+
+.chart-container-right {
+    width:300px;
+    margin: 10px;
+}
+
+.chart-container-left[collapsed]{
+    width: 15px;
+}
+
+.chart-container-left[collapsed] .chart-container-filter {
+    width: 0;
+    overflow: hidden;
+}
+
+.chart-container-right[collapsed] {
+    width: 0;
+    overflow: hidden;
+    margin: 0;
+}
+

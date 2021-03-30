@@ -1,0 +1,24 @@
+.filter-container {
+    margin: 20px ;
+}
+
+.filter-container button {
+    width: 256px;
+}
+
+
+.filter-container p {
+    margin-bottom: 2px;
+}
+
+.filter-container i {
+    font-size: 13px;
+}
+.filter-drop-down {
+    width: 200px;
+}
+
+.submit-button {
+    float: right;
+    margin: 0 20px;
+}

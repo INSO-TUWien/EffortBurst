@@ -1,0 +1,1 @@
+export const authorNames = ['Max', 'Ela', 'Hans', 'Boss', 'Loyd'];

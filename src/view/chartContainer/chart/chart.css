@@ -1,0 +1,25 @@
+.chart-title {
+    text-align: center;
+    margin: 5px;
+}
+
+.chart-selected-issue-title {
+    font-size: 20px;
+    font-family: Sans, Arial, serif;
+    font-weight: bold;
+}
+
+.chart-details-data {
+    position: absolute;
+    top: -50px;
+}
+
+
+.chart-render-node-item-title {
+    font-size: 20px;
+}
+
+.chart-render-node-item-type {
+    font-size: 25px;
+    font-weight: bold;
+}

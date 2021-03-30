@@ -1,0 +1,59 @@
+.chart-details-container {
+    height: 100%;
+    overflow: scroll;
+    display: flex;
+    flex-flow: column;
+}
+.chart-details-container  td{
+    padding: 5px;
+    font-size: 14px;
+}
+.chart-details-container  tr th{
+    text-align: left;
+    width: 20%;
+}
+.chart-details-container  tr td:first-child{
+    font-size: 12px;
+}
+.chart-details-container  tr:nth-child(even){
+    background-color: #efefef;
+}
+
+.chart-details-container-one .chart-details-second-label {
+    display: none;
+}
+
+.chart-details-commit-container {
+    display: grid;
+    grid-template-columns: 25px 65px 60px 65px auto;
+
+}
+.chart-details-commit-container div {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.chart-details-commit-container div:nth-child(-n+10) {
+    background-color: #efefef;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.chart-details-commit-build {
+    grid-column-start: 1;
+}
+
+.chart-details-commit-build {
+    display:inline-block;
+    background-color: red;
+    border-radius: 50%;
+    padding:3px;
+    width:2px;
+    height:2px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.chart-details-commit-build[build=true] {
+    background-color: green;
+}

@@ -1,0 +1,12 @@
+.legend-chart-container {
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.legend-chart {
+    text-align: center;
+    font-size: 10px;
+    font-weight: lighter;
+}
+

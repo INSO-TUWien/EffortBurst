@@ -1,0 +1,14 @@
+.app-container {
+  display: flex;
+  margin: 10px;
+}
+button {
+  background-color: #696363; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}

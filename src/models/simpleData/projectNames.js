@@ -1,0 +1,23 @@
+export const projectNames = [
+    'Aurora',
+    'Canary',
+    'Cherrystone',
+    'Cyclone',
+    'Dessert Storm',
+    'Eagle',
+    'Einstein',
+    'Firetruck',
+    'Galactica',
+    'Hades',
+    'Hydra',
+    'Kodiak',
+    'Mango',
+    'Odyssey',
+    'Orion',
+    'Pure Panther',
+    'Revolution',
+    'Sea Lions',
+    'Sirius',
+    'The Violent Storms',
+    'Titan'
+];
